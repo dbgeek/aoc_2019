@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/dbgeek/aoc_2019/workflows/AOC 2019 CI/badge.svg)](https://github.com/dbgeek/aoc_2019/actions)
+[![Actions Status](https://github.com/dbgeek/aoc_2019/workflows/AOC%202019%20CI/badge.svg)](https://github.com/dbgeek/aoc_2019/actions)
 
 # Advent of code 2019
 
