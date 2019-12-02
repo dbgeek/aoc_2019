@@ -4,10 +4,15 @@
   "description": "",
   "main": "jest.config.js",
   "scripts": {
+    "setup": "npm install",
     "test": "jest --coverage",
     "test:watch": "jest --coverage --watchAll",
     "build": "tsc",
-    "build:watch": "onchange 'src/**/*.ts' -- npm run build"
+    "build:watch": "onchange 'src/**/*.ts' -- npm run build",
+    "run-day1a": "node dist/solution_day1a.js",
+    "run-day1b": "node dist/solution_day1b.js",
+    "run-day2a": "node dist/solution_day2a.js",
+    "run-day2b": "node dist/solution_day2b.js"
   },
   "keywords": [],
   "author": "",
