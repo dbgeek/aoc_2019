@@ -23,5 +23,8 @@ jobs:
         npm ci
         npm run build
         npm test
+        node node_modules/jest/bin/jest.js --coverage --coverageReporters=text-lcov | node node_modules/coveralls/bin/coveralls.js
       env:
-        CI: true
+        CI: "true"
+        COVERALLS_REPO_TOKEN: "${{ secrets.coverall_repo_token }}"
+        COVERALLS_GIT_BRANCH: "${{ github.ref }}"
