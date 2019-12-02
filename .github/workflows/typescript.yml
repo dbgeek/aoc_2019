@@ -24,4 +24,6 @@ jobs:
         npm run build
         npm test
       env:
-        CI: true
+        CI: "true"
+        COVERALLS_REPO_TOKEN: "${{ secrets.coverall_repo_token }}"
+        COVERALLS_GIT_BRANCH: "${{ github.ref }}"
