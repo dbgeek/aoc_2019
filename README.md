@@ -2,4 +2,4 @@
 
 # Advent of code 2019
 
-Contribute my solutions to [Advent of Code 2019](https://adventofcode.com) and be inspired by others.
+Contribute my solutions for [Advent of Code 2019](https://adventofcode.com).
