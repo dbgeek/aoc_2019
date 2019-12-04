@@ -3,3 +3,9 @@
 # Advent of code 2019
 
 Contribute my solutions for [Advent of Code 2019](https://adventofcode.com).
+
+## ToDO
+
+### Day 3
+
+* Remove `Wire Type` and `wire parameter` to `drawWrite method`.
