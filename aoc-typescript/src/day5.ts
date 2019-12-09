@@ -1,5 +1,3 @@
-import { existsTypeAnnotation } from "@babel/types";
-
 export const adds = (parameter1: number, parameter2: number, destitionAdress: number, memory: number[]): void => {
     memory[destitionAdress] = parameter1 + parameter2;
 }
