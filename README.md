@@ -9,3 +9,7 @@ Contribute my solutions for [Advent of Code 2019](https://adventofcode.com).
 ### Day 3
 
 * Remove `Wire Type` and `wire parameter` to `drawWrite method`.
+
+### Day 9
+
+* Add test for all functions.
